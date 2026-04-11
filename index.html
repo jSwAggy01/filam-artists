@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Filo Artists</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <aside class="sidebar">
+        <h1 class="title">Filo Artists</h1>
+
+        <div class="artist-meta active" id="meta-0">
+          <p class="bio">
+            Beabadoobee (Beatrice Laus) is a Filipino-British indie pop and
+            bedroom pop artist known for her dreamy, lo-fi sound.
+          </p>
+        </div>
+
+        <div class="social-links">
+          <a href="https://open.spotify.com/artist/35l9BRT7MXmM8bv2WDQiyB?si=MOiaUao9QFKgtO_Wovz4aQ" class="social-link">Spotify</a>
+          <a href="https://www.instagram.com/radvxz" class="social-link">Instagram</a>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <button class="arrow left-arrow" onclick="navigate(-1)">&#8249;</button>
+
+        <div class="card active" id="card-0">
+          <h2 class="artist-name">Beabadoobee</h2>
+          <img src="pics/Beabadoobee.jpg" alt="Beabadoobee" />
+        </div>
+
+        <button class="arrow right-arrow" onclick="navigate(1)">&#8250;</button>
+      </main>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
