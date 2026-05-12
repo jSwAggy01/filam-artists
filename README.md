@@ -10,8 +10,6 @@
 
 **Filo Artists** is an interactive web app showcasing 12 talented Filipino-American musicians across genres like indie pop, R&B, and bedroom pop. Browse each artist's biography and jump directly to their Spotify, Instagram, or TikTok profile; all from one clean, dark-themed page.
 
-This project was built as a personal passion project and submitted as part of my application to the **Snap Engineering Academy (SEA)**.
-
 ---
 
 ## 📖 Background
